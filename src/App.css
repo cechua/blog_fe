@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  background-color: #101610;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+  font-family: "Semi-Coder-Regular";
+  font-size: 30px;
+  color: white;
+}
+
+.header-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.footer {
+  height: 50px;
+  background-color: #101610;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.git-icon {
+  position: relative;
+  top: 3px;
+  font-size: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.link-item,
+.link-button {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.link-item:hover,
+.link-item-active {
+  text-decoration: underline;
+}
+
+.login-container {
+  background-color: red;
+}
