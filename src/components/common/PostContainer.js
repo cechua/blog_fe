@@ -3,7 +3,7 @@ import { format } from "date-fns";
 const PostContainer = ({ post }) => {
   const { title, content, postedDate, postedBy } = post;
   return (
-    <div className="container w-[800px] h-[200px] flex flex-col justify-between shadow-md py-4 px-8">
+    <div className="container w-[75%] h-[200px] flex flex-col justify-between shadow-lg py-4 px-8 my-4">
       <div>
         <div className="flex flex-row justify-between w-full font-bold">
           <h2>

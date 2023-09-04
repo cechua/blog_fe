@@ -16,7 +16,6 @@ const Login = () => {
           "Content-Type": "application/json",
         }
       );
-      console.log(response);
       if (response.data.token != null) {
         localStorageToken.setToken("token", response.data.token);
         window.location.href = "/home";
@@ -68,7 +67,7 @@ const Login = () => {
           <div className="mb-4">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="username"
+              htmlFor="password"
             >
               Password
             </label>
